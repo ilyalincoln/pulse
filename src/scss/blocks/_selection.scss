@@ -55,3 +55,26 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .selection {
+        &__title {
+            font-size: 35px;
+        }
+        &__subtitle {
+            font-size: 19px;
+        }
+        &__icons {
+            width: 350px;
+        }
+        &__icon {
+            font-size: 12px;
+            .icon-timer, .icon-delivery, .icon-questions {
+                font-size: 40px;
+            }
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+}
