@@ -57,3 +57,29 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__contacts {
+            width: 160px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        justify-content: space-around;
+        &__text {
+            display: none;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+}

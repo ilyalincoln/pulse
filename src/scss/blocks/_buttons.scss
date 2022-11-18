@@ -26,3 +26,27 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .button {
+        width: 115px;
+        height: 25px;
+        font-size: 11px;
+        &_main {
+            width: 175px;
+            height: 35px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        width: 105px;
+        height: 30px;
+        font-size: 10px;
+        &_main {
+            margin-top: 35px;
+            width: 150px;
+        }
+    }
+}

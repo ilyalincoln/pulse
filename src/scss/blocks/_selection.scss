@@ -78,3 +78,38 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .selection {
+        &__link {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .selection {
+        &__title {
+            font-size: 38px;
+            text-align: end;
+        }
+        &__subtitle {
+            font-size: 21px;
+            text-align: end;
+        }
+        &__icons {
+            width: 100%;
+            margin: 0;
+            margin-top: 60px;
+            justify-content: flex-end;
+        }
+        &__icon {
+            .icon-timer, .icon-delivery, .icon-questions {
+                font-size: 30px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+}
